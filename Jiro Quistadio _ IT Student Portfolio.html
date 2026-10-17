@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jiro Quistadio | IT Student and Aspiring Cybersecurity Professional</title>
+<meta name="description" content="Portfolio of Jiro Quistadio, a BSIT student in Cagayan de Oro City, Philippines, building skills in cybersecurity, web development, networking and IT support. Open to internships, entry-level IT roles and freelance projects.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jiro Quistadio | IT Student and Aspiring Cybersecurity Professional">
+<meta property="og:description" content="BSIT student building practical skills in cybersecurity, web development and networking. Open to opportunities.">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#060a14">
+<!-- After deploying, add: <meta property="og:image" content="https://YOUR-SITE/preview.png"> -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23060a14'/%3E%3Ctext x='32' y='42' font-family='monospace' font-size='26' font-weight='700' text-anchor='middle' fill='%2322d3ee'%3EJQ%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap">
+<style>
+*,::before,::after{box-sizing:border-box;margin:0}
+:root{--bg:#060a14;--s:#0d1526;--c:rgba(255,255,255,.045);--bd:rgba(255,255,255,.1);--tx:#e8edf7;--mu:#9aa7bf;--a:#22d3ee;--b:#8b5cf6;--hd:rgba(6,10,20,.75);--ok:#34d399;--er:#fb7185;color-scheme:dark;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root[data-theme=light]{--bg:#f4f7fb;--s:#e8eef7;--c:rgba(255,255,255,.8);--bd:rgba(15,23,42,.12);--tx:#0f172a;--mu:#475569;--a:#0e7490;--b:#6d28d9;--hd:rgba(244,247,251,.8);--ok:#047857;--er:#be123c;color-scheme:light}
+:root[data-theme=light] :is(.btn.p,.av,.mono){color:#fff}
+html{scroll-behavior:smooth;scroll-padding-top:calc(76px + env(safe-area-inset-top,0px))}
+body{background:var(--bg);color:var(--tx);font:400 16px/1.65 "Space Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;overflow-x:clip;transition:background .3s}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--hd);backdrop-filter:blur(16px)}
+a{color:inherit;text-decoration:none}ul{padding-left:1.2rem;color:var(--mu);margin:.4rem 0 .8rem}
+:focus-visible{outline:2px solid var(--a);outline-offset:3px}
+.skip{position:absolute;left:-999px;top:0;z-index:99;padding:.6rem 1rem;background:var(--a);color:#04101c;border-radius:0 0 10px 0}.skip:focus{left:0}
+.w{width:min(1120px,100% - 2.5rem);margin-inline:auto}
+section{padding:96px 0}.alt{background:linear-gradient(180deg,transparent,var(--s) 15%,var(--s) 85%,transparent)}
+h1,h2,h3{line-height:1.15;letter-spacing:-.02em}h2{font-size:clamp(1.9rem,4vw,2.7rem);margin-bottom:.7rem}
+.eb{color:var(--a);font:600 .78rem/1 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.14em;text-transform:uppercase;margin-bottom:.9rem}
+.lead{color:var(--mu);max-width:62ch;margin-bottom:2.2rem}
+.g{display:grid;gap:1.25rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr))}
+.g.wd{grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr))}.g.sm{grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr))}
+.card{background:var(--c);border:1px solid var(--bd);border-radius:20px;padding:1.5rem;backdrop-filter:blur(14px);transition:transform .3s,border-color .3s,box-shadow .3s}
+.card:hover{transform:translateY(-4px);border-color:var(--a);box-shadow:0 14px 40px -18px var(--a)}
+.card h3{font-size:1.12rem;margin-bottom:.4rem}.card p{color:var(--mu);font-size:.95rem}
+.ic{width:46px;height:46px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,color-mix(in srgb,var(--a) 22%,transparent),color-mix(in srgb,var(--b) 22%,transparent));color:var(--a);margin-bottom:1rem}
+.mini{display:flex;gap:.9rem;padding:1.1rem}.mini .ic{margin:0;flex:none;width:40px;height:40px}.mini h3{font-size:1rem;margin:0}.mini p{font-size:.88rem}
+.row{display:flex;flex-wrap:wrap;gap:.7rem;align-items:center}.row+.row{margin-top:1.4rem}
+.btn,.ib{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;border:1px solid var(--bd);background:var(--c);color:var(--tx);cursor:pointer;transition:.25s;font:600 .95rem "Space Grotesk",sans-serif}
+.btn{padding:.8rem 1.35rem;border-radius:999px}.ib{width:42px;height:42px;border-radius:12px}
+.btn:hover,.ib:hover{transform:translateY(-2px);border-color:var(--a)}
+.btn.p{background:linear-gradient(135deg,var(--a),var(--b));border:0;color:#04101c;box-shadow:0 10px 30px -12px var(--a)}.btn.p:hover{box-shadow:0 14px 36px -10px var(--b)}
+.btn[aria-disabled=true],.ib[aria-disabled=true]{opacity:.7}
+.chip{display:inline-block;padding:.2rem .7rem;border-radius:999px;font-size:.78rem;border:1px solid var(--bd);background:var(--c);color:var(--mu)}
+.tags{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:1rem}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--hd);backdrop-filter:blur(16px);border-bottom:1px solid var(--bd)}
+.nv{display:flex;align-items:center;justify-content:space-between;height:64px;gap:1rem}
+.logo{display:flex;align-items:center;gap:.6rem;font-weight:700}
+.mono{display:grid;place-items:center;width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,var(--a),var(--b));color:#04101c;font:700 .9rem ui-monospace,monospace}
+.links{display:flex;gap:1.5rem;color:var(--mu);font-size:.92rem}.links a:hover{color:var(--tx)}.act{display:flex;gap:.5rem}.mb{display:none}
+:root[data-theme=light] .is,:root:not([data-theme=light]) .im{display:none}
+#mb[aria-expanded=true] .mi,#mb[aria-expanded=false] .xi{display:none}
+@media(max-width:860px){.mb{display:inline-flex}.links{position:absolute;inset:64px 0 auto;flex-direction:column;gap:1rem;padding:1rem 1.25rem 1.5rem;background:var(--bg);border-bottom:1px solid var(--bd);display:none}.links.open{display:flex}}
+.hero{position:relative;overflow:hidden;min-height:88svh;display:flex;align-items:center;padding:72px 0 110px}
+.grid-bg{position:absolute;inset:0;background-image:linear-gradient(var(--bd) 1px,transparent 1px),linear-gradient(90deg,var(--bd) 1px,transparent 1px);background-size:48px 48px;-webkit-mask-image:radial-gradient(ellipse at 50% 30%,#000 20%,transparent 75%);mask-image:radial-gradient(ellipse at 50% 30%,#000 20%,transparent 75%)}
+.glow{position:absolute;width:480px;height:480px;max-width:90vw;border-radius:50%;filter:blur(90px);opacity:.26;animation:dr 14s ease-in-out infinite alternate}
+.o1{background:var(--a);top:-120px;left:-80px}.o2{background:var(--b);right:-100px;bottom:-140px;animation-delay:-6s}
+@keyframes dr{to{transform:translate(60px,40px) scale(1.15)}}
+.hg{position:relative;display:grid;gap:3rem;grid-template-columns:1.15fr .85fr;align-items:center}
+@media(max-width:900px){.hg{grid-template-columns:1fr}}
+.badge{display:inline-flex;align-items:center;gap:.55rem;padding:.4rem .9rem;border-radius:999px;border:1px solid var(--bd);background:var(--c);font-size:.82rem;color:var(--mu);margin-bottom:1.4rem}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--ok);animation:pu 2s infinite}@keyframes pu{0%{box-shadow:0 0 0 0 var(--ok)}70%,100%{box-shadow:0 0 0 8px transparent}}
+h1{font-size:clamp(2.3rem,6vw,4.1rem);margin-bottom:1.2rem}.gt{background:linear-gradient(90deg,var(--a),var(--b));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .lead{margin-bottom:1.8rem}
+.term{padding:0;overflow:hidden;font:.86rem/1.9 ui-monospace,Menlo,Consolas,monospace}.term div{overflow-wrap:anywhere}
+.tb{display:flex;gap:6px;padding:.8rem 1rem;border-bottom:1px solid var(--bd)}.tb span{width:10px;height:10px;border-radius:50%;background:var(--bd)}
+.tbody{padding:1.3rem 1.4rem}.k{color:var(--b)}.v{color:var(--a);margin-bottom:.4rem}
+.pf{display:flex;align-items:center;gap:1rem;margin-bottom:1.1rem;font:500 1rem/1.4 "Space Grotesk",sans-serif}.pf small{color:var(--mu)}
+.av{width:76px;height:76px;flex:none;border-radius:22px;display:grid;place-items:center;font:700 1.6rem ui-monospace,monospace;color:#04101c;background:linear-gradient(135deg,var(--a),var(--b));overflow:hidden}.av img{width:100%;height:100%;object-fit:cover}
+.sc{position:absolute;bottom:26px;left:50%;translate:-50% 0;width:24px;height:38px;border:2px solid var(--mu);border-radius:14px;opacity:.7}
+.sc::after{content:"";position:absolute;left:50%;top:7px;width:4px;height:8px;margin-left:-2px;border-radius:2px;background:var(--a);animation:sc 1.8s infinite}@keyframes sc{60%{transform:translateY(12px);opacity:0}}
+.th{height:140px;border-radius:14px;margin-bottom:1.1rem;display:grid;place-items:center;color:#fff;position:relative;overflow:hidden;background:linear-gradient(135deg,hsl(var(--h) 80% 42%),hsl(calc(var(--h) + 60) 75% 38%))}
+.th::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.25) 1px,transparent 1px);background-size:16px 16px}.th svg{width:52px;height:52px;position:relative}
+.st{font:600 .7rem/1 ui-monospace,monospace;text-transform:uppercase;letter-spacing:.1em;color:var(--a);margin-bottom:.6rem}
+.pc{display:flex;flex-direction:column}.pc .row{margin-top:auto;padding-top:1.2rem}.pl{margin-top:.6rem;font-size:.9rem!important}.pl b{color:var(--tx)}
+.tl{border-left:2px solid var(--bd);padding-left:1.6rem;margin-left:.5rem;display:grid;gap:1.5rem}
+.tl>div{position:relative}.tl>div::before{content:"";position:absolute;left:-2.1rem;top:.35rem;width:12px;height:12px;border-radius:50%;background:var(--a);box-shadow:0 0 0 4px var(--bg)}
+.tl .nx::before{background:var(--bg);border:2px solid var(--b)}.tl h3{font-size:1.05rem}.tl p{color:var(--mu);font-size:.92rem}
+.rh{display:flex;flex-wrap:wrap;justify-content:space-between;gap:1rem;padding-bottom:1.2rem;border-bottom:1px solid var(--bd);margin-bottom:.5rem}
+.res h4{font-size:.76rem;letter-spacing:.12em;text-transform:uppercase;color:var(--a);margin:1.2rem 0 .4rem}.res p{font-size:.92rem;margin-bottom:.35rem}.res p b{color:var(--tx)}
+form{display:grid;gap:1rem}label{font-size:.85rem;color:var(--mu);display:grid;gap:.4rem}
+input,textarea{font:inherit;color:var(--tx);background:var(--s);border:1px solid var(--bd);border-radius:12px;padding:.8rem 1rem;width:100%}
+input[aria-invalid=true],textarea[aria-invalid=true]{border-color:var(--er)}.er{color:var(--er);font-size:.8rem;min-height:1em}
+#fs{padding:.8rem 1rem;border-radius:12px;font-size:.9rem;border:1px solid var(--bd)}#fs:empty{display:none}#fs a{text-decoration:underline}
+.s-ok{color:var(--ok);border-color:var(--ok)!important}.s-er{color:var(--er);border-color:var(--er)!important}
+.col{display:grid;gap:.7rem;margin-top:1.2rem}.col .btn{justify-content:flex-start}
+footer{padding:2.5rem 0;border-top:1px solid var(--bd);color:var(--mu);font-size:.88rem;text-align:center}
+dialog{margin:auto;width:min(660px,92vw);max-height:88vh;overflow:auto;background:var(--s);color:var(--tx);border:1px solid var(--bd);border-radius:22px;padding:1.6rem}dialog::backdrop{background:rgba(2,6,14,.7);backdrop-filter:blur(4px)}
+#t{position:fixed;left:50%;bottom:calc(1.5rem + env(safe-area-inset-bottom,0px));translate:-50% 20px;max-width:min(92vw,440px);padding:.8rem 1.1rem;border-radius:14px;background:var(--s);border:1px solid var(--bd);box-shadow:0 12px 40px rgba(0,0,0,.35);opacity:0;pointer-events:none;transition:.3s;z-index:60;font-size:.9rem}#t.on{opacity:1;translate:-50% 0}
+#up{position:fixed;right:1.25rem;bottom:calc(1.25rem + env(safe-area-inset-bottom,0px));opacity:0;pointer-events:none;z-index:40}#up.on{opacity:1;pointer-events:auto}
+.rv{opacity:0}.rv.in{opacity:1;animation:up .7s var(--d,0s) backwards}@keyframes up{from{opacity:0;transform:translateY(22px)}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,::before,::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="w nv">
+<a class="logo" href="#home" aria-label="Jiro Quistadio, home"><span class="mono">JQ</span><span>Jiro Quistadio</span></a>
+<nav class="links" id="lk" aria-label="Main"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#services">Services</a><a href="#education">Education</a><a href="#resume">Resume</a><a href="#contact">Contact</a></nav>
+<div class="act"><button class="ib" id="tg" aria-label="Toggle light and dark theme"><i data-lucide="sun" class="is"></i><i data-lucide="moon" class="im"></i></button><button class="ib mb" id="mb" aria-label="Menu" aria-expanded="false" aria-controls="lk"><i data-lucide="menu" class="mi"></i><i data-lucide="x" class="xi"></i></button></div>
+</div></header>
+<main id="main">
+<section class="hero" id="home">
+<div class="grid-bg" aria-hidden="true"></div><div class="glow o1" aria-hidden="true"></div><div class="glow o2" aria-hidden="true"></div>
+<div class="w hg"><div>
+<div class="badge rv"><span class="dot"></span>Open to Opportunities</div>
+<h1 class="rv">Building Skills. Solving Problems. <span class="gt">Creating Digital Solutions.</span></h1>
+<p class="lead rv">I’m an IT student developing practical skills in technology, programming, networking and cybersecurity, and I’m looking for internships, entry-level IT roles and freelance projects.</p>
+<div class="row rv"><a class="btn p" href="#projects">Explore My Projects <i data-lucide="arrow-right"></i></a><a class="btn" data-l="resume"><i data-lucide="download"></i> Download Resume</a><a class="btn" href="#contact"><i data-lucide="mail"></i> Let’s Connect</a></div>
+<div class="row rv"><a class="ib" data-l="github" aria-label="GitHub"><i data-lucide="github"></i></a><a class="ib" data-l="linkedin" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a><a class="ib" data-l="email" aria-label="Email"><i data-lucide="mail"></i></a></div>
+</div>
+<div class="card term rv" style="--d:.15s"><div class="tb" aria-hidden="true"><span></span><span></span><span></span></div><div class="tbody">
+<div class="pf"><div class="av" id="av">JQ</div><div>Jiro Quistadio<br><small>BSIT · Cagayan de Oro City</small></div></div>
+<div><span class="k">$</span> whoami</div><div class="v">jiro_quistadio</div>
+<div><span class="k">$</span> focus --now</div><div class="v">cybersecurity, web dev, networking</div>
+<div><span class="k">$</span> status</div><div class="v">open_to_opportunities ▌</div>
+</div></div></div>
+<a class="sc" href="#about" aria-label="Scroll to About section"></a>
+</section>
+
+<section id="about"><div class="w"><p class="eb">About me</p><h2>Curious about how systems work, and how to protect them.</h2>
+<div class="g wd"><div class="rv"><p class="lead" style="margin-bottom:1rem">I’m an Information Technology student in Cagayan de Oro City, learning how digital systems are built, connected and secured.</p><p class="lead" style="margin-bottom:1.5rem">My goal is a career in cybersecurity. Along the way I’m building practical skills in web development, networking and IT support, and I want to learn from real-world projects through internships, entry-level roles and freelance work.</p><div class="g sm" id="inf"></div></div><div class="g sm" id="vl"></div></div></div></section>
+
+<section id="skills" class="alt"><div class="w"><p class="eb">Technical skills</p><h2>What I’m working with</h2><p class="lead">These reflect my current coursework and hands-on practice. I’m still growing, and I update this list as I learn.</p><div class="g wd" id="sk"></div></div></section>
+
+<section id="projects"><div class="w"><p class="eb">Featured projects</p><h2>Things I’ve designed and built</h2><p class="lead">Academic and personal projects, not professional client work.</p><div class="g wd" id="pj"></div></div></section>
+
+<section id="services" class="alt"><div class="w"><p class="eb">Services</p><h2>How I Can Help</h2><p class="lead">I’m early in my career, so I focus on small, well-defined tasks and I’m upfront about what I can deliver.</p><div class="g" id="sv"></div><div class="row" style="margin-top:2rem"><a class="btn p" href="#contact">Discuss a task <i data-lucide="arrow-right"></i></a></div></div></section>
+
+<section id="education"><div class="w"><p class="eb">Education</p><h2>Education and learning journey</h2>
+<div class="g wd" style="margin-top:2rem"><div class="card rv"><div class="ic"><i data-lucide="graduation-cap"></i></div><h3>Bachelor of Science in Information Technology</h3><p>PHINMA Cagayan de Oro College</p><div class="tags"><span class="chip">Programming</span><span class="chip">Networking</span><span class="chip">Information assurance</span><span class="chip">Systems analysis</span><span class="chip">Data analytics</span></div></div><div class="tl" id="tl"></div></div></div></section>
+
+<section id="resume" class="alt"><div class="w"><p class="eb">Resume</p><h2>Resume at a glance</h2><div class="card rv res" id="rs"></div></div></section>
+
+<section id="contact"><div class="w"><p class="eb">Contact</p><h2>Have an Opportunity or Project in Mind?</h2><p class="lead">Send a message about an internship, entry-level role or freelance task. I’d be glad to talk it through.</p>
+<div class="g wd"><form id="cf" class="card rv" novalidate>
+<label>Name<input name="name" autocomplete="name" required><span class="er" id="e-name"></span></label>
+<label>Email<input name="email" type="email" autocomplete="email" required><span class="er" id="e-email"></span></label>
+<label>Subject<input name="subject" required><span class="er" id="e-subject"></span></label>
+<label>Message<textarea name="message" rows="5" required></textarea><span class="er" id="e-message"></span></label>
+<button class="btn p" id="sb" type="submit">Send Message <i data-lucide="send"></i></button><div id="fs" role="status" aria-live="polite"></div></form>
+<div class="card rv"><h3>Prefer a direct line?</h3><p>Reach me on any of these channels.</p><div class="col"><a class="btn" data-l="email"><i data-lucide="mail"></i> Email</a><a class="btn" data-l="github"><i data-lucide="github"></i> GitHub</a><a class="btn" data-l="linkedin"><i data-lucide="linkedin"></i> LinkedIn</a></div><p class="pl"><i data-lucide="map-pin" style="width:14px;height:14px;vertical-align:-2px"></i> Cagayan de Oro City, Philippines</p></div></div></div></section>
+</main>
+<footer><div class="w">© <span id="yr"></span> Jiro Quistadio · IT Student · Cagayan de Oro City, Philippines</div></footer>
+<dialog id="dlg"></dialog><div id="t" role="status" aria-live="polite"></div>
+<button class="ib" id="up" aria-label="Back to top"><i data-lucide="arrow-up"></i></button>
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.263.1/dist/umd/lucide.min.js"></script>
+<script>
+/* ===== HOW TO CUSTOMIZE =====
+ 1. CONFIG (C): add your email, full GitHub/LinkedIn URLs, a photo URL/path (e.g. "photo.jpg"),
+    a resume PDF path (e.g. "resume.pdf" placed beside this file) and a formEndpoint (e.g. a Formspree URL).
+    Anything left empty shows a friendly "coming soon" note instead of a broken link, and the form never fakes a send.
+ 2. Edit SKILLS, PROJECTS (add repo:"url" / demo:"url" to show buttons), SERVICES and TL below.
+    Update each project's "r" (role) line to describe your actual contribution.
+ 3. Deploy: upload this file as index.html (plus your PDF/photo) to Netlify or Vercel. */
+const C={email:'',github:'',linkedin:'',photo:'',resume:'',formEndpoint:''};
+const SKILLS=[
+{i:'code',t:'Programming and Development',d:'Building and styling for the web, plus Java fundamentals.',s:['HTML','CSS','JavaScript','Java','Responsive web design','Basic database development']},
+{i:'network',t:'Networking and Infrastructure',d:'Simulated networks and core configuration tasks.',s:['Cisco Packet Tracer','VLAN configuration','Basic routing and switching','IP addressing and subnetting','Network troubleshooting','Virtual machine setup']},
+{i:'shield',t:'Cybersecurity and IT Support',d:'Security fundamentals and hands-on support tasks.',s:['Cybersecurity fundamentals','Information assurance concepts','Basic troubleshooting','OS installation and configuration','Basic system administration']},
+{i:'folder',t:'Productivity and Administrative Support',d:'Accurate, well-organized documents and data work.',s:['Data entry','Data encoding','Microsoft Word','Microsoft Excel','Document formatting','Online research','File organization']}];
+const TOOLS=['Cisco Packet Tracer','Java','HTML','CSS','JavaScript','Virtual machines','Microsoft Word','Microsoft Excel'];
+const PROJECTS=[
+{t:'Barangay-Based Emergency Response System',i:'siren',h:350,st:'Academic concept',p:'Emergency reports in a barangay can be slow to reach the right responders.',s:'A system concept that sends reports with GPS location to responders and tracks incident status.',f:['Emergency reports','GPS locations','Responder notifications','Emergency hotlines','Incident status updates'],tech:['System design','GPS location','Notifications','Database'],r:'Student project: system concept and design'},
+{t:'Cisco VLAN Network Simulation',i:'network',h:195,st:'Network simulation',p:'Different user groups on one network need separation without losing connectivity.',s:'A simulated network with separate VLANs for Students, Faculty, Management and Administrators, plus inter-VLAN routing.',f:['Four separate VLANs','Switch configuration','Inter-VLAN routing'],tech:['Cisco Packet Tracer','VLANs','Switching','Inter-VLAN routing'],r:'Student project: network design and simulation'},
+{t:'Client Onboarding and Construction Design Tracking System',i:'clipboard-check',h:265,st:'Academic concept',p:'Onboarding clients, reviewing compliance and tracking design revisions is hard to manage by hand.',s:'A web-based system concept covering onboarding, compliance reviews, design versions, cost estimates, feedback and automated email notifications.',f:['Client onboarding','Compliance reviews','Architectural design versions','Cost estimation','Feedback','Automated email notifications'],tech:['Web-based system','Database','Email notifications','Systems analysis'],r:'Student project: systems analysis and design'},
+{t:'Java GUI Flower Ordering System',i:'flower-2',h:320,st:'Academic concept',p:'Browsing products and tracking customer orders manually is error-prone.',s:'A Java application concept with a graphical interface for browsing flowers and managing customer orders.',f:['Flower browsing','Order management','Graphical interface'],tech:['Java','GUI','Order management'],r:'Student project: Java GUI application'},
+{t:'Data Analytics Dashboard',i:'bar-chart-3',h:160,st:'Academic concept',p:'Raw data is hard to read when decisions need to be made quickly.',s:'A dashboard concept that presents data through charts, KPIs and visual summaries.',f:['Charts','KPIs','Visual summaries'],tech:['Data analytics','Charts','KPIs','Data visualization'],r:'Student project: dashboard concept and data presentation'}];
+const SERVICES=[['keyboard','Data Entry and Data Encoding','Accurate, organized entry and encoding of records into spreadsheets and documents.'],['globe','Website Development','Clean, responsive sites with HTML, CSS and JavaScript for small, well-defined needs.'],['wrench','Basic IT Support and Troubleshooting','Help with common software, operating system and setup issues, with clear notes.'],['network','Network Setup and Simulation','Packet Tracer designs covering VLANs, routing and switching, and IP addressing.'],['file-text','Document Formatting and File Organization','Tidy Word documents and well-structured folders and files.'],['bar-chart-3','Basic Dashboard and Data Visualization','Simple charts and KPI summaries that make data easier to read.']];
+const INFO=[['map-pin','Location','Cagayan de Oro City'],['graduation-cap','Studying','BSIT'],['shield','Focus','Cybersecurity, web, networking'],['briefcase','Looking for','Internships, entry-level IT, freelance']];
+const VALUES=[['book-open','Continuous learning','Every course and project is a chance to improve.'],['puzzle','Problem-solving','Breaking issues into small, testable steps.'],['lightbulb','Technical curiosity','Always asking how and why things work.'],['refresh-cw','Adaptability','Comfortable picking up new tools and methods.'],['eye','Attention to detail','Careful with configurations, data and documents.'],['rocket','Learning by doing','Eager to apply classroom knowledge to real projects.']];
+const TL=[['Bachelor of Science in Information Technology','Studying programming, networking, information assurance, systems analysis and data analytics.',0],['Certifications','Industry certifications will be listed here as I earn them.',1],['Workshops and courses','Completed workshops and short courses will be added here.',1],['Technical achievements','Projects, competitions and other milestones will appear here as they happen.',1]];
+
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const ic=n=>`<i data-lucide="${n}"></i>`,chips=a=>a.map(x=>`<span class="chip">${x}</span>`).join('');
+const icons=()=>window.lucide&&lucide.createIcons();
+const links=p=>(p.repo?`<a class="btn" href="${p.repo}" target="_blank" rel="noopener">${ic('github')} Source code</a>`:'')+(p.demo?`<a class="btn" href="${p.demo}" target="_blank" rel="noopener">${ic('globe')} Live demo</a>`:'');
+const mini=([i,t,x],n)=>`<div class="card rv mini" style="--d:${n*.06}s"><div class="ic">${ic(i)}</div><div><h3>${t}</h3><p>${x}</p></div></div>`;
+const toast=m=>{const t=$('#t');t.textContent=m;t.classList.add('on');clearTimeout(toast.k);toast.k=setTimeout(()=>t.classList.remove('on'),3800)};
+
+$('#av').innerHTML=C.photo?`<img src="${C.photo}" alt="Portrait of Jiro Quistadio">`:'JQ';
+$('#yr').textContent=new Date().getFullYear();
+$('#inf').innerHTML=INFO.map(mini).join('');$('#vl').innerHTML=VALUES.map(mini).join('');
+$('#sk').innerHTML=SKILLS.map((s,n)=>`<article class="card rv" style="--d:${n*.07}s"><div class="ic">${ic(s.i)}</div><h3>${s.t}</h3><p>${s.d}</p><div class="tags">${chips(s.s)}</div></article>`).join('');
+$('#pj').innerHTML=PROJECTS.map((p,n)=>`<article class="card rv pc" style="--d:${n*.06}s"><div class="th" style="--h:${p.h}">${ic(p.i)}</div><div class="st">${p.st}</div><h3>${p.t}</h3><p class="pl"><b>Problem:</b> ${p.p}</p><p class="pl"><b>Solution:</b> ${p.s}</p><div class="tags">${chips(p.tech)}</div><p class="pl"><b>My role:</b> ${p.r}</p><div class="row"><button class="btn" data-p="${n}">View Project ${ic('arrow-right')}</button>${links(p)}</div></article>`).join('');
+$('#sv').innerHTML=SERVICES.map(([i,t,x],n)=>`<article class="card rv" style="--d:${n*.06}s"><div class="ic">${ic(i)}</div><h3>${t}</h3><p>${x}</p></article>`).join('');
+$('#tl').innerHTML=TL.map(([t,x,nx])=>`<div class="rv${nx?' nx':''}"><h3>${t}</h3><p>${x}</p></div>`).join('');
+const bits=['Cagayan de Oro City, Philippines',C.email,C.github.replace(/^https?:\/\//,''),C.linkedin.replace(/^https?:\/\//,'')].filter(Boolean);
+$('#rs').innerHTML=`<div class="rh"><div><h3 style="font-size:1.5rem">Jiro Quistadio</h3><p>IT Student · Aspiring Cybersecurity Professional · Junior Developer</p></div><div class="row"><a class="btn p" data-l="resume">${ic('download')} Download PDF</a>${C.resume?'':'<span class="chip">PDF coming soon</span>'}</div></div><div class="g wd"><div><h4>Introduction</h4><p>BSIT student seeking internship, entry-level IT and freelance opportunities in cybersecurity, web development, networking and IT support.</p><h4>Education</h4><p><b>BS Information Technology</b><br>PHINMA Cagayan de Oro College</p><h4>Contact</h4>${bits.map(b=>`<p>${b}</p>`).join('')}</div><div><h4>Technical skills</h4>${SKILLS.map(s=>`<p><b>${s.t}:</b> ${s.s.join(', ')}</p>`).join('')}</div><div><h4>Academic projects</h4><ul>${PROJECTS.map(p=>`<li>${p.t}</li>`).join('')}</ul><h4>Tools and technologies</h4><div class="tags" style="margin-top:0">${chips(TOOLS)}</div></div></div>`;
+
+const U={email:()=>C.email&&'mailto:'+C.email,github:()=>C.github,linkedin:()=>C.linkedin,resume:()=>C.resume},M={email:'Email address coming soon.',github:'GitHub link coming soon.',linkedin:'LinkedIn link coming soon.',resume:'Resume PDF coming soon. Please reach out through the contact form.'};
+$$('[data-l]').forEach(a=>{const k=a.dataset.l,u=U[k]();if(u){a.href=u;if(k==='resume')a.setAttribute('download','');else if(k!=='email'){a.target='_blank';a.rel='noopener'}}else{a.href='#';a.setAttribute('aria-disabled','true');a.onclick=e=>{e.preventDefault();toast(M[k])}}});
+icons();
+
+const d=$('#dlg');
+$('#pj').onclick=e=>{const b=e.target.closest('[data-p]');if(!b)return;const p=PROJECTS[b.dataset.p];d.setAttribute('aria-label',p.t);
+d.innerHTML=`<div class="th" style="--h:${p.h}">${ic(p.i)}</div><div class="st">${p.st}</div><h3 style="font-size:1.45rem;margin-bottom:.7rem">${p.t}</h3><p class="pl" style="color:var(--mu)"><b>Problem:</b> ${p.p}</p><p class="pl" style="color:var(--mu)"><b>Solution:</b> ${p.s}</p><p class="pl"><b>Key features</b></p><ul>${p.f.map(x=>`<li>${x}</li>`).join('')}</ul><div class="tags" style="margin-top:0">${chips(p.tech)}</div><p class="pl" style="color:var(--mu)"><b>My role:</b> ${p.r}</p><div class="row" style="margin-top:1.4rem"><button class="btn p" id="cl">Close</button>${links(p)||'<span class="chip">Code and demo links coming soon</span>'}</div>`;
+icons();d.showModal();$('#cl').onclick=()=>d.close()};
+
+const R=document.documentElement;let th='dark';try{th=localStorage.getItem('th')||'dark'}catch{}R.dataset.theme=th;
+$('#tg').onclick=()=>{th=R.dataset.theme==='dark'?'light':'dark';R.dataset.theme=th;try{localStorage.setItem('th',th)}catch{}};
+const lk=$('#lk'),mb=$('#mb');mb.onclick=()=>mb.setAttribute('aria-expanded',lk.classList.toggle('open'));
+lk.onclick=e=>{if(e.target.tagName==='A'){lk.classList.remove('open');mb.setAttribute('aria-expanded','false')}};
+addEventListener('scroll',()=>$('#up').classList.toggle('on',scrollY>600),{passive:true});$('#up').onclick=()=>scrollTo({top:0});
+
+const f=$('#cf'),fs=$('#fs'),say=(k,h)=>{fs.className='s-'+k;fs.innerHTML=h};
+const rules={name:v=>v.trim().length>=2||'Please enter your name.',email:v=>/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v.trim())||'Please enter a valid email address.',subject:v=>v.trim().length>=3||'Please add a short subject.',message:v=>v.trim().length>=10||'Please write at least 10 characters.'};
+f.onsubmit=async e=>{e.preventDefault();let ok=true;
+for(const k in rules){const el=f.elements[k],r=rules[k](el.value);$('#e-'+k).textContent=r===true?'':r;el.setAttribute('aria-invalid',r!==true);el.setAttribute('aria-describedby','e-'+k);if(r!==true)ok=false}
+if(!ok)return say('er','Please fix the highlighted fields and try again.');
+const data=Object.fromEntries(new FormData(f));
+if(!C.formEndpoint)return say('in',`The contact form isn’t connected to an email service yet, so nothing was sent.${C.email?` You can <a href="mailto:${C.email}?subject=${encodeURIComponent(data.subject)}&body=${encodeURIComponent(data.message)}">send it from your email app</a> instead.`:' Please try again later.'}`);
+const b=$('#sb');b.disabled=true;
+try{const r=await fetch(C.formEndpoint,{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(data)});if(!r.ok)throw 0;say('ok','Thank you! Your message was sent.');f.reset()}
+catch{say('er','Sorry, your message couldn’t be sent. Please try again or contact me directly.')}
+b.disabled=false};
+
+const io='IntersectionObserver'in window?new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.1}):null;
+$$('.rv').forEach(el=>io?io.observe(el):el.classList.add('in'));
+</script>
+</body>
+</html>
